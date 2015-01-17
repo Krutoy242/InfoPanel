@@ -1,0 +1,63 @@
+<infoPanel width="80" height="23" btnWidth="16">
+	<menu title="Главная" level="1">
+		<header>БОБРО ПОЖАЛОВАТЬ НА СЕРВЕР MODERN TECH!</header>
+		<content>Что я хочу получить? В конфиге я должен, например, для 5-й кнопки ввести название кнопки и имя файла, из которого подгрузиться инфа при клике на кнопку. Я не должен переписывать половину кода программы, чтобы поменять новость на сайте, а просто на ФТП поправить файлик и перезагрузить комп ОС.  Программа должна быть как можно гибче, но главное это требуемый функционал.
+             Более сложная и тонкая модернизация программы пока не нужна (бегущая строка, получение каких-то переменных на экран, типа время, сколько онлайн сейчас игрокови т.п.) Будет желание, предусмотрите использование сразу нескольких мониторов, которые могут стоять например на разных этажах спавна, или на второй длинный высотой в один блок выводиться бегущая строка и т.п. Но это пока не так сильно нужно. То что нужно сейчас - видно на скрине. 
+             Программка не сложная, но нужно это все аккууратно сделать и потратить некоторое время. Очень прошу помочь и подключиться в общую работу над нашим проектом. Только вместе мы сможем сделать наш сайт, сервер и проект в целом играбельнее, познавательнее, веселее и интереснее!</content>
+	</menu>
+	<menu title="Дизайн" level="2">
+		<header>ОРАНЖЕВЫЕ И САЛАТОВЫЕ ЦВЕТА НЕ НУЖНЫ</header>
+		<content>Дизайн можно допилить, но цветовую схему аля-виндовс прошу оставить. Оранжевые и салатовые цвета не нужны.</content>
+	</menu>
+	<menu title="Призы" level="2">
+		<header>ПРИЗЫ ЗА ИНФО-ПАНЕЛЬ:</header>
+		<content>☻ чанклоадер
+             ☻ почетная медаль "помощник администрации"
+             ☻ медаль "на кральях славы"
+             ☻ 5 карьеров.</content>
+	</menu>
+  
+	<separator />
+  
+	<menu title="Новости" level="1">
+		<header>ЗАГОЛОВОК</header>
+		<content>This splits a string using the pattern sep. It calls func for each segment. When func is called, the first argument is the segment and the remaining arguments are the captures from sep, if any. On the last segment, func will be called with just one argument. (This could be used as a flag, or you could use two different functions). sep must not match the empty string. Enhancements are left as an exercise :)
+    This splits a string using the pattern sep. It calls func for each segment. When func is called, the first argument is the segment and the remaining arguments are the captures from sep, if any. On the last segment, func will be called with just one argument. (This could be used as a flag, or you could use two different functions). sep must not match the empty string. Enhancements are left as an exercise :)
+    This splits a string using the pattern sep. It calls func for each segment. When func is called, the first argument is the segment and the remaining arguments are the captures from sep, if any. On the last segment, func will be called with just one argument. (This could be used as a flag, or you could use two different functions). sep must not match the empty string. Enhancements are left as an exercise :)
+    This splits a string using the pattern sep. It calls func for each segment. When func is called, the first argument is the segment and the remaining arguments are the captures from sep, if any. On the last segment, func will be called with just one argument. (This could be used as a flag, or you could use two different functions). sep must not match the empty string. Enhancements are left as an exercise :)</content>
+	</menu>
+	<menu title="ПодНовости 1" level="2">
+		<header>ЗАГОЛОВОК</header>
+		<content>Текст</content>
+	</menu>
+	<menu title="ПодНовости 2" level="2">
+		<header>ЗАГОЛОВОК</header>
+		<content>Текст</content>
+	</menu>
+	<menu title="ПодНовости 3" level="2">
+		<header>ЗАГОЛОВОК</header>
+		<content>Текст</content>
+	</menu>
+  
+	<separator />
+  
+	<menu title="Правила" level="1">
+		<header>ЗАГОЛОВОК</header>
+		<content>Текст</content>
+	</menu>
+	<menu title="Приват" level="1">
+		<header>ЗАГОЛОВОК</header>
+		<content>Текст</content>
+	</menu>
+	<menu title="Телепортация" level="1">
+		<header>ЗАГОЛОВОК</header>
+		<content>Текст</content>
+	</menu>
+  
+	<separator />
+  
+	<menu title="FAQ" level="1">
+		<header>ЗАГОЛОВОК</header>
+		<content>Текст</content>
+	</menu>
+</infoPanel>
