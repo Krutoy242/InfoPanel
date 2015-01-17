@@ -1,0 +1,105 @@
+* {
+  fill-ch: " ";
+  fill-color-fg: 0x0093eb;
+  fill-color-bg: 0x041420;
+  
+  text-color: 0xf2f2fc;
+  text-background: 0x041420;
+
+  border: false;
+  border-top: false;
+  border-bottom: false;
+  border-left: false;
+  border-right: false;
+  
+  border-color-fg: 0x0093eb;
+  border-color-bg: 0x010c12;
+  border-ch-top: "═";
+  border-ch-bottom: "═";
+  border-ch-left: "║";
+  border-ch-right: "║";
+  border-ch-topleft: "╔";
+  border-ch-bottomleft: "╚";
+  border-ch-topright: "╗";
+  border-ch-bottomright: "╝";
+}
+
+gui{
+  border: true;
+  border-top: true;
+  border-bottom: true;
+  border-left: true;
+  border-right: true;
+}
+
+gui.dialog {
+  border: true;
+  border-top: true;
+  border-bottom: true;
+  border-left: true;
+  border-right: true;
+}
+
+textfield, textbox {
+  selected-color: 0xedfffe;
+  selected-background: 0x0c1e34;
+  text-color: 0xedfffe;
+  text-background: 0x020305;  
+}
+
+
+textbox:focus, textfield:focus {
+  text-background: 0x000000;
+  fill-color-bg: 0x0a0e11;
+}
+
+folder{
+  selected-color: 0xedfffe;
+  selected-background: 0x0c1e34;
+}
+
+listbox {
+  text-background: 0x020305;
+}
+
+label.listbox {
+  text-background: 0x041420;
+}
+
+
+label.lblHeader {
+  text-color: 0x22ff12;
+}
+
+scrollbar {
+  button-color-fg: 0x0b426b;
+  button-color-bg: 0x062843;
+  button-ch-up: U+25b2;
+  button-ch-down: U+25bc;
+  button-ch-left: U+25c4;
+  button-ch-right: U+25ba;
+  grip-ch-v: " ";
+  grip-ch-h: " ";
+  bar-ch: " ";
+  bar-color-fg: 0xffffff;
+  bar-color-bg: 0x031f35;
+  grip-color-fg: 0xffffff;
+  grip-color-bg: 0x0b426b;
+}
+
+
+button {
+  fill-color-bg: 0x091a2a;
+  text-background: 0x091a2a;
+  border-color-fg: 0x0e4f4b;
+  border-color-bg: 0x091a2a;
+  border-ch-left: "[";
+  border-ch-right: "]";
+  border: true;
+  border-left: true;
+  border-right: true;
+}
+ 
+button:focus {
+  border-color-fg: 0x03f5ff;
+}
